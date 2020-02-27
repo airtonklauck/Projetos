@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <title>Cadastro de Clientes</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='css/reset.css'>
+    <link rel='stylesheet' href='css/site.css'>
+    <link rel='stylesheet' href='css/cabecalho.css'>
+    <link rel='stylesheet' href='css/tabela.css'>
+    <link rel='stylesheet' href='css/formulario.css'>
+    <link rel='stylesheet' href='css/botao.css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho_titulo">Cadastro de Clientes</h1>
+    </header>
+    <main>
+
+        <section class="tabela"></section>
+
+        <section class="formulario"></section>
+
+    </main>
+    <script src='controllers/CadastroController.js'></script>
+    <script src='models/ListaDeContatos.js'></script>
+    <script src='models/Contato.js'></script>
+    <script src='views/View.js'></script>
+    <script src='views/ContatosView.js'></script>
+    <script src='views/FormularioView.js'></script>
+    <script src='services/ProxyFactory.js'></script>
+    <script>
+        let cadastroController = new CadastroController();
+    </script>
+</body>
+</html>
